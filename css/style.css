@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Open sans';
+}
+
+h1 {
+    color: white;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+h3 {
+    color: white;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+p {
+    font-weight: normal;
+    color: white;
+    line-height: 1.5;
+}
+
+.nav-item {
+    margin: 5px 20px;
+}
+
+.navbar a.active {
+    background: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#title {
+    padding: 3% 15%;
+    background-color: #37167e;
+}
+
+.title-text h1 {
+    font-size: 3rem;
+}
+
+.title-text {
+    padding-top: 105px;
+}
+
+.title-text img {
+    margin-left: 100px;
+    width: 100%;
+}
+
+.title-text .btn {
+    margin-right: 20px
+}
+
+#courses {
+    padding: 3% 15%;
+}
+
+#courses h3 {
+    color: black;
+}
+
+#courses .card {
+    margin: 40px;
+}
+
+#courses p {
+    color: black;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+#courses h1 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#courses .row .col-lg-4 img {
+    width: 100%;
+}
+
+
+#courses .card-img-top {
+    padding: 30px;
+}
+
+#about-us {
+    padding: 3% 15%;
+    background-color: #112B8A;
+}
+
+#about-us .col-lg-6 {
+    padding: 40px;
+}
+
+#contact {
+    padding: 3% 15%;
+}
+
+
+#contact h1,
+#contact p {
+    color: black;
+    text-align: center;
+}
+
+#contact a {
+    margin: 30px 20px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    #title,
+    #courses,
+    #about-us,
+    #contact {
+        padding: 7%;
+    }
+
+    .title-text {
+        text-align: center;
+    }
+
+    .title-text img {
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .navbar a.active {
+        background: black;
+        border-radius: 20px;
+        padding: 5px 20px;
+        display: inline;
+    }
+
+}
